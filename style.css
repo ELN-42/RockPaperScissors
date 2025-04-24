@@ -1,9 +1,32 @@
 #container {
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: aliceblue;
     gap: 20px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 3px black solid;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+}
+
+button {
+    height: 100px;
+    width: 300px;
+}
+
+head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .buttons {
@@ -12,3 +35,30 @@
     border: 3px grey solid;
     border-radius: 10px;
 }
+
+.results {
+    background-color: seagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.score {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#resultscreen {
+    font-size: 24px;
+}
+
+#human {
+    background-color: rgb(230, 148, 162);
+}
+
+#com {
+    background-color: rgb(145, 137, 138);
+}
+
