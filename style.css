@@ -1,0 +1,14 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    gap: 20px;
+}
+
+.buttons {
+    background-color: aquamarine;
+    font-size: medium;
+    border: 3px grey solid;
+    border-radius: 10px;
+}

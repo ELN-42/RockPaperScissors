@@ -17,6 +17,7 @@ function getComputerChoice(){
 }
 
 function playRound(computer, human){
+    console.log(human);
     if(human === computer){
         return "draw";
     }
@@ -74,7 +75,13 @@ function playGame(){
     }
 }
 
-playGame();
+function rockchoice(){
+    playRound(getComputerChoice(), "rock");
+}
+
+const rock = document.querySelector(".rock");
+rock.addEventListener("click" , () => playRound(getComputerChoice(), "rock"));
+
 
 
 
